@@ -28,3 +28,11 @@ func (h *htmlDeserializer) Deserialize(b []byte, v interface{}) error {
 func tokenizer2Map(t *html.Tokenizer) (map[string]interface{}, error) {
 	return make(map[string]interface{}), nil
 }
+
+func NextTable(t *html.Tokenizer) error {
+	return nil
+}
+
+func FindTable(t *html.Tokenizer, tag []byte) error {
+	return nil
+}
